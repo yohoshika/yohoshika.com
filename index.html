@@ -4,16 +4,16 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>home</title>
+<title>index</title>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: home;
-		--web-view-id: home;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: home;
+		--web-view-ids: index;
 	}
 	* {
 		margin: 0;
@@ -21,14 +21,14 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#home {
+	#index {
 		position: absolute;
 		width: 1920px;
 		height: 1080px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: home;
-		--web-view-id: home;
+		--web-view-name: index;
+		--web-view-id: index;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
@@ -67,7 +67,7 @@
 		white-space: nowrap;
 		--web-animation: fadein undefineds undefined;
 		--web-action-type: page;
-		--web-action-target: about_us.html;
+		--web-action-target: yohoshika.com/about_us;
 		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
@@ -100,7 +100,7 @@
 		white-space: nowrap;
 		--web-animation: fadein undefineds undefined;
 		--web-action-type: page;
-		--web-action-target: works.html;
+		--web-action-target: yohoshika.com/works;
 		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
@@ -133,7 +133,7 @@
 		white-space: nowrap;
 		--web-animation: fadein undefineds undefined;
 		--web-action-type: page;
-		--web-action-target: about_us.html;
+		--web-action-target: yohoshika.com/about_us;
 		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
@@ -186,14 +186,6 @@
 		font-size: 30px;
 		color: rgba(0,0,0,1);
 	}
-	#IMG_3370 {
-		position: absolute;
-		width: 1638px;
-		height: 10px;
-		left: 141px;
-		top: 988px;
-		overflow: visible;
-	}
 	#n_1 {
 		position: absolute;
 		width: 1920px;
@@ -239,6 +231,20 @@
 		font-style: normal;
 		font-weight: normal;
 		font-size: 60px;
+		color: rgba(0,0,0,1);
+	}
+	#n_____________________________ {
+		left: 1090px;
+		top: 653px;
+		position: absolute;
+		overflow: visible;
+		width: 747px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Menlo;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
 		color: rgba(0,0,0,1);
 	}
 </style>
@@ -3154,7 +3160,7 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="home">
+<div id="index">
 	<div id="meanwhile_you_can_read_">
 		<span>meanwhile, you can read </span>
 	</div>
@@ -3182,8 +3188,6 @@ window.application = new Application();
 	<div id="or_check_the_update_log_below">
 		<span>or check the update log below.</span>
 	</div>
-	<img id="IMG_3370" src="IMG_3370.png" srcset="IMG_3370.png 1x, IMG_3370@2x.png 2x">
-		
 	<div id="n_1">
 		<div id="Copyright__2022_Yo_Hoshika_all">
 			<span>Copyright © 2022 Yo Hoshika all rights reserved.</span>
@@ -3195,6 +3199,9 @@ window.application = new Application();
 	</div>
 	<div id="Yo_Hoshika">
 		<span>Yo </span><span style="letter-spacing:-0.08px;">H</span><span>oshika</span>
+	</div>
+	<div id="n_____________________________">
+		<span>                           (   )<br/>                          (    )<br/>                           (    )<br/>                          (    )<br/>                            )  )<br/>                           (  (                  /\<br/>                            (_)                 /  \  /\<br/>                    ________[_]________      /\/    \/  \<br/>           /\      /\        ______    \    /   /\/\  /\/\<br/>          /  \    //_\       \    /\    \  /\/\/    \/    \<br/>   /\    / /\/\  //___\       \__/  \    \/<br/>  /  \  /\/    \//_____\       \ |[]|     \<br/> /\/\/\/       //_______\       \|__|      \<br/>/      \      /XXXXXXXXXX\                  \<br/>        \    /_I_II  I__I_\__________________\<br/>               I_I|  I__I_____[]_|_[]_____I<br/>               I_II  I__I_____[]_|_[]_____I<br/>               I II__I  I     XXXXXXX     I<br/>            ~~~~~”   “~~~~~~~~~~~~~~~~~~~~~~~~</span>
 	</div>
 </div>
 </body>
